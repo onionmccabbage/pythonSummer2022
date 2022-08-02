@@ -28,7 +28,13 @@ d = {'name':'Floella', 'age':72, 'airtime':1967}
 d['hero'] = True
 # d.hero = False # nope
 print(d)
-# dictionary is mande up of key-value pairs
+
+# so whats going on??
+t = ('oobly', 'woobly')
+o, w = t
+print(o, w)
+
+# dictionary is made up of key-value pairs
 # Question - what's going on with this 'in' loop..?
 for k, v in d.items(): # dictionary is iterable
     print(k, v)
