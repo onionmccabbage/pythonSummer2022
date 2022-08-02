@@ -13,7 +13,9 @@ print(c_str, type(c_str), c_str.isnumeric() )
 invalidQty = True
 while invalidQty:
     q_str = input('Stock Quantity: ')
-    if q_str.isdecimal():
+    try:
         q_int = int(float(q_str)) # good practice
-        invalidQty = False # fix this!!!!!
-    break
+        invalidQty = False
+    except ValueError:
+        pass
+print('code: {} qty: {}'.format(c_str, q_int))
