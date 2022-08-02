@@ -1,4 +1,4 @@
-Review Exercise
+Review Exercise (until 3:20)
 ===============
 Ask the user to enter a guess until they get it right (integer between 0 and 100)
   from random import randint # this is a good way to make a random number
