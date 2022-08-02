@@ -1,0 +1,24 @@
+Review Exercise
+===============
+Ask the user to enter a guess until they get it right (integer between 0 and 100)
+  from random import randint # this is a good way to make a random number
+  n = randint(0,100)
+
+If it's too high or too low tell them
+When they get it right the game ends
+(NB validate that an integer was entered) 
+
+Optional
+--------
+tell them how many guesses they took
+entering -1 quits the game (tell them the answer)
+entering -2 offers hints: is it even, is it odd, is it a square or prime number?
+maybe ask the user for the range (i.e. the difficulty)
+
+    primes_t     = (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97)
+
+
+Recomended
+----------
+- use functions
+- use booleans to check if the game is over
